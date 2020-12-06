@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+
+<form action="action_page.php" method="POST" enctype="multipart/form-data">
+    Company: <input name="company" value="">
+    <br>
+    Model: <input name="model" value="" >
+    <br>
+    Id No: <input name="id" value="" >
+    <br>
+    Tower/section:<input name="tow_sec" value="" >
+    <br>
+    Comments:
+    <br>
+    <input name="comments" value="" type="text" style="width: 400px; height: 200px;">
+    <br>
+    <label for="img">Select image:</label>
+    <!-- <input type="file" id="img" name="img" accept="image/*" value=""> -->
+    <input type="file" id="img" name="img" accept="image/*" value=""/>
+    <br>
+    <input type="submit">
+</form>
+<a href="./index.php">Stored Data</a>
