@@ -1,7 +1,7 @@
 <?php      
     $host = "localhost";  
     $user = "root";  
-    $password = 'root';  
+    $password = 'password';  
     $db_name = "Akhil";  
       
     $con = mysqli_connect($host, $user, $password, $db_name);  
@@ -28,6 +28,7 @@
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $username;
             echo "<a href='./index.php'>Stored Data</a>";
+	    header('Location: /index.php'); 
         }  
         else{  
             echo "<h1> Login failed. Invalid username or password.</h1>"; 

@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anon>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
 		<style>
 			#customers {
 			font-family: Arial, Helvetica, sans-serif;
 			border-collapse: collapse;
 			width: 100%;
+			height: 100%;
 			}
 
 			#customers td, #customers th {
@@ -33,12 +38,11 @@
 <?php
 session_start();
 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
-	echo "kkkkkkkk";
-	echo "<p><a href='./logout.php'>Logout</a></p>";
+	echo "<p><a style='font-size: initial;' href='./logout.php'>Logout</a></p>";
 
 	$servername = "localhost";
 	$username = "root";
-	$password = "root";
+	$password = "password";
 	$dbname = "Akhil";
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
@@ -53,6 +57,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
 		// output data of each row
 		echo "<table id='customers'>
 			<tr>
+			<th>DateTime</th>
 			<th>Company</th>
 			<th>Model</th>
 			<th>Id</th>
@@ -62,12 +67,13 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
 			</tr>";
 		while($row = $result->fetch_assoc()) {
 			echo "<tr>
+		<td>".$row['dt_created']."</td>
 		<td>".$row['company']."</td>
 		<td>".$row['model']."</td>
 		<td>".$row['id']."</td>
 		<td>".$row['tow_sec']."</td>
 		<td>".$row['comments']."</td>
-		<td><a href='image/".$row['img']."'><img style='height:10%;width:10%;' src='image/".$row['img']."'></a></td>
+		<td><a href='image/".$row['img']."'><img style='display:block; height:10%;' src='image/".$row['img']."'></a></td>
 		</tr>";
 		}
 	} else {
@@ -76,7 +82,8 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
 	echo "<p><a href='./akhil.html'>To Store Values</a></p>";
 	$conn->close();
 } else {
-    echo "Please log in first to see this page.";
+   //echo "<p>Please <a href='./login.html'>Login</a></p>";
+   header('Location: ./login.html');
 }
   
 ?>
