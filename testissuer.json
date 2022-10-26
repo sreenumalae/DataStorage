@@ -5,7 +5,7 @@
     ],
     "id": "https://raw.githubusercontent.com/sreenumalae/DataStorage/main/issuer.json",
     "certificateTempId":"1",
-    "issuer_url": "https://www.human-logic.com/",
+    "url": "https://www.human-logic.com/",
     "name": "Human_Logic_Software_LLc",
     "email": "help_info@human-logic.com",
     "introductionURL": "https://www.issuer.org/intro/",
