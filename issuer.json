@@ -3,10 +3,9 @@
     "https://w3id.org/openbadges/v2",
     "https://w3id.org/blockcerts/v2",
     "https://github.com/zahabiyamhw/hl-cert/blob/main/context_aluminiOf.json",
-    {
-    "schema": "http://schema.org/",
-    "alumniOf": "schema:alumniOf"
-    }
+     "alumniOf": {
+            "@id": "schema:alumniOf"
+          },
   ],
   "id": "https://raw.githubusercontent.com/sreenumalae/DataStorage/main/issuer.json",
   "certificateTempId":"1",
