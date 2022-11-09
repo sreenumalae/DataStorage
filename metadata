@@ -1,0 +1,6 @@
+{ 
+  "@context": [{
+    "schema": "http://schema.org/",
+    "alumniOf": "https://www.human-logic.com/"
+  }]
+}
