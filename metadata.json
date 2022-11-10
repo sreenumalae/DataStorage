@@ -1,6 +1,6 @@
 { 
-  "@context": [{
+  "@context": {
     "schema": "http://schema.org/",
     "alumniOf": "schema:alumniOf"
-  }]
+  }
 }
