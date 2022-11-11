@@ -3,8 +3,8 @@
     "https://w3id.org/openbadges/v2",
     {
       "alumniOf": {
-      "@id": "alumniOf - Schema.org Property",
-      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
+        "@id": "http://schema.org/alumniOf",
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
       }
     },
     "https://w3id.org/blockcerts/v2",
