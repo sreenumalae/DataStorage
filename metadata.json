@@ -1,5 +1,28 @@
 { 
   "@context": {
-    {"alumniOf": {"@id": "http://schema.org/alumniOf", "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"}}
+   {
+            "alumniOf": {
+                "@id": "http://schema.org/alumniOf",
+                "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
+            }
+        },
+        {
+            "Cousevalue": {
+                "@id": "https://schema.org/course",
+                "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
+            }
+        },
+        {
+            "subject": {
+                "@id": "https://schema.org/title",
+                "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
+            }
+        },
+        {
+            "Note": {
+                "@id": "https://schema.org/Number",
+                "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
+            }
+        }
   }
 }
