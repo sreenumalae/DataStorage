@@ -12,12 +12,12 @@
                   "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
             },
             "subject": {
-                        "@id": "https://schema.org/title",
-                        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
+                  "@id": "https://schema.org/title",
+                  "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
             },
             "Note": {
-                        "@id": "https://schema.org/Number",
-                        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
+                  "@id": "https://schema.org/Number",
+                  "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
             }
       }
 }
