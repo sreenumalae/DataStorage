@@ -12,7 +12,7 @@
   "revocationList": "https://raw.githubusercontent.com/blockchain-certificates/cert-issuer/master/examples/issuer/revocation-list.json",
   "publicKey": [
     {
-      "id": "ecdsa-koblitz-pubkey:0x4d6919d34132c6963cfee665309c6079822795bb",
+      "id": "ecdsa-koblitz-pubkey:0x4c4F04F57257694fC04D205234a3c518c6D1b716",
       "created": "2021-06-23T19:06:58.980071+00:00"
     }
   ],
