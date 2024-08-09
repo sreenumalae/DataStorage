@@ -6,7 +6,7 @@
     {
       "alumniOf": {
         "@id": "http://schema.org/alumniOf",
-        "@type": "@id"
+        "@type": "xsd:string"
       },
       "CourseValue": {
         "@id": "http://schema.org/course",
