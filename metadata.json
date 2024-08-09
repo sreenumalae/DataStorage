@@ -2,6 +2,10 @@
   "@context": [
     "https://schema.org/",
     {
+      "evidence": {
+        "@id": "http://schema.org/name",
+        "@type": "xsd:string"
+      },
       "alumniOf": {
         "@id": "http://schema.org/alumniOf",
         "@type": "xsd:string"
