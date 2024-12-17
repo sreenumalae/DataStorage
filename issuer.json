@@ -8,7 +8,7 @@
   "id": "https://raw.githubusercontent.com/sreenumalae/DataStorage/main/issuer.json",
   "name": "Human Logic Software LLc",
   "url": "https://www.human-logic.com/",
-  "introductionURL": "https://www.issuer.org/intro/",
+  "introductionURL": "http://40.120.88.145:5000/intro",
   "revocationList": "https://raw.githubusercontent.com/blockchain-certificates/cert-issuer/master/examples/issuer/revocation-list.json",
   "publicKey": [
     {
