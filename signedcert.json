@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/openbadges/v2",
+        {
+            "alumniOf": {
+                "@id": "http://schema.org/alumniOf",
+                "@type": "xsd:string"
+            }
+        },
+        "https://w3id.org/security/data-integrity/v2",
+        "https://w3id.org/blockcerts/v3.1"
+    ],
+    "credentialSubject": {
+        "alumniOf": {
+            "id": "https://www.xyz.com/"
+        },
+        "id": "ecdsa-koblitz-pubkey:0xD1b6d14b69E450789A9FC1ca936BEaE50e704242"
+    },
+    "id": "urn:uuid:b19297b4-1364-4981-a692-f1f496326976",
+    "issuanceDate": "2024-09-28T15:37:31Z",
+    "issuer": "https://raw.githubusercontent.com/sreenumalae/DataStorage/main/issuer.json",
+    "nonce": "6286QS6C5O",
+    "proof": {
+        "created": "2024-09-28T15:40:55.058201",
+        "cryptosuite": "merkle-proof-2019",
+        "id": "urn:uuid:d3c4056f-a366-48e0-b529-365e1579feb4",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z9nmN4tsCzSUK5dGbkwuYYJ17pNsFfXXARnHZXycnb39wNABpWShmJLmh5EPKmdqt63g7eLuvsBryviNJZ3yvXf5x3sfKfVWHXRj1safyAGuCsw1rz4rhV2JF1CfDVXtEPTkprU4hDEwwBJbHXFSu8JxT35rbSKeAXSNRyheZEiiJE8AaQAaEopYwoZrktNDkddQ7p17LPAkTY11E4rYhCrrcRuKJ49phdxTdoDfBdRRPSoziVZT5ijFoxTvHVh7hZCi4qJSug6oByHnBExt41UPCJdZTxMFRbCQeestJnbNgKzogvVAtHkcAT9fq1p2AQGXQzWrnNuVFPABfxeHrs8AaC3bpmnYo5EBvo4soJEbSvxpDYwJhxRyJEsBiYvmgerhNM51JLroEN5aQnVBSHraWXB",
+        "type": "DataIntegrityProof",
+        "verificationMethod": null
+    },
+    "salt": "6.1003",
+    "type": [
+        "VerifiableCredential",
+        "BlockcertsCredential"
+    ]
+}
