@@ -1,7 +1,13 @@
 {
-  "@context": [
-    "https://schema.org/",
-    {
+  "@context":     {
+    "id": "@id",
+    "type": "@type",
+    "bc": "https://w3id.org/blockcerts#",
+    "cp": "https://w3id.org/chainpoint#",
+    "vc": "https://www.w3.org/2018/credentials/v1",
+    "schema": "https://schema.org/",
+    "sec": "https://w3id.org/security#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
       "evidence": {
         "@id": "http://schema.org/name",
         "@type": "xsd:string"
