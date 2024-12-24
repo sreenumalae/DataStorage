@@ -22,6 +22,20 @@
         "@id": "http://schema.org/Number",
         "@type": "xsd:number"
       }
+    },
+    "credentialSubject": {
+    "@id": "bc:credentialSubject",
+    "@context": {
+        "id": "@id",
+        "type": "@type",
+        "college": {
+            "@id": "bc:college",
+            "@context": {
+                "id": "@id",
+                "type": "@type"
+              }
+          }
+        },
     }
   ]
 }
